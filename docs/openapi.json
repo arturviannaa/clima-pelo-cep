@@ -1,0 +1,455 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Clima pelo CEP",
+    "description": "\nConsulta o **clima atual** e a **previsão do tempo** a partir de um **CEP brasileiro**.\n\nFluxo interno: CEP → [ViaCEP](https://viacep.com.br) (endereço) →\n[Open-Meteo Geocoding](https://open-meteo.com/en/docs/geocoding-api) (latitude/longitude) →\n[Open-Meteo Forecast](https://open-meteo.com/en/docs) (clima).\n\nA previsão é feita no nível da **cidade** do CEP.\n",
+    "contact": {
+      "name": "Checkpoint 5 - FIAP"
+    },
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/saude": {
+      "get": {
+        "tags": [
+          "Status"
+        ],
+        "summary": "Verifica se a API está no ar",
+        "operationId": "saude_saude_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Saude Saude Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/endereco/{cep}": {
+      "get": {
+        "tags": [
+          "Consultas"
+        ],
+        "summary": "Endereço de um CEP",
+        "operationId": "endereco_endereco__cep__get",
+        "parameters": [
+          {
+            "name": "cep",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "CEP com ou sem hífen",
+              "examples": [
+                "01310-100"
+              ],
+              "title": "Cep"
+            },
+            "description": "CEP com ou sem hífen"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Endereco"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "CEP ou localização não encontrados",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Erro"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "CEP ou parâmetro inválido",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Erro"
+                }
+              }
+            }
+          },
+          "502": {
+            "description": "Falha ao consultar uma API externa",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Erro"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/clima/{cep}": {
+      "get": {
+        "tags": [
+          "Consultas"
+        ],
+        "summary": "Clima atual e previsão para um CEP",
+        "operationId": "clima_clima__cep__get",
+        "parameters": [
+          {
+            "name": "cep",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "CEP com ou sem hífen",
+              "examples": [
+                "01310-100"
+              ],
+              "title": "Cep"
+            },
+            "description": "CEP com ou sem hífen"
+          },
+          {
+            "name": "dias",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "maximum": 16,
+              "minimum": 1,
+              "description": "Dias de previsão diária (1 a 16)",
+              "default": 7,
+              "title": "Dias"
+            },
+            "description": "Dias de previsão diária (1 a 16)"
+          },
+          {
+            "name": "horas",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "maximum": 168,
+              "minimum": 1,
+              "description": "Horas de previsão horária (1 a 168)",
+              "default": 48,
+              "title": "Horas"
+            },
+            "description": "Horas de previsão horária (1 a 168)"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RelatorioClima"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "CEP ou localização não encontrados",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Erro"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "CEP ou parâmetro inválido",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Erro"
+                }
+              }
+            }
+          },
+          "502": {
+            "description": "Falha ao consultar uma API externa",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Erro"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ClimaAtual": {
+        "properties": {
+          "horario": {
+            "type": "string",
+            "title": "Horario"
+          },
+          "temperatura": {
+            "type": "number",
+            "title": "Temperatura"
+          },
+          "sensacao_termica": {
+            "type": "number",
+            "title": "Sensacao Termica"
+          },
+          "umidade": {
+            "type": "integer",
+            "title": "Umidade"
+          },
+          "vento_kmh": {
+            "type": "number",
+            "title": "Vento Kmh"
+          },
+          "codigo_clima": {
+            "type": "integer",
+            "title": "Codigo Clima"
+          },
+          "descricao": {
+            "type": "string",
+            "title": "Descricao"
+          },
+          "dia": {
+            "type": "boolean",
+            "title": "Dia"
+          }
+        },
+        "type": "object",
+        "required": [
+          "horario",
+          "temperatura",
+          "sensacao_termica",
+          "umidade",
+          "vento_kmh",
+          "codigo_clima",
+          "descricao",
+          "dia"
+        ],
+        "title": "ClimaAtual"
+      },
+      "Coordenadas": {
+        "properties": {
+          "latitude": {
+            "type": "number",
+            "title": "Latitude"
+          },
+          "longitude": {
+            "type": "number",
+            "title": "Longitude"
+          },
+          "fuso_horario": {
+            "type": "string",
+            "title": "Fuso Horario"
+          }
+        },
+        "type": "object",
+        "required": [
+          "latitude",
+          "longitude",
+          "fuso_horario"
+        ],
+        "title": "Coordenadas",
+        "description": "Latitude/longitude obtidas pela Geocoding API do Open-Meteo."
+      },
+      "Endereco": {
+        "properties": {
+          "cep": {
+            "type": "string",
+            "title": "Cep"
+          },
+          "logradouro": {
+            "type": "string",
+            "title": "Logradouro"
+          },
+          "bairro": {
+            "type": "string",
+            "title": "Bairro"
+          },
+          "cidade": {
+            "type": "string",
+            "title": "Cidade"
+          },
+          "uf": {
+            "type": "string",
+            "title": "Uf"
+          },
+          "estado": {
+            "type": "string",
+            "title": "Estado"
+          },
+          "ibge": {
+            "type": "string",
+            "title": "Ibge"
+          }
+        },
+        "type": "object",
+        "required": [
+          "cep",
+          "logradouro",
+          "bairro",
+          "cidade",
+          "uf",
+          "estado",
+          "ibge"
+        ],
+        "title": "Endereco",
+        "description": "Dados retornados pelo ViaCEP."
+      },
+      "Erro": {
+        "properties": {
+          "erro": {
+            "type": "string",
+            "title": "Erro"
+          },
+          "detalhe": {
+            "type": "string",
+            "title": "Detalhe"
+          }
+        },
+        "type": "object",
+        "required": [
+          "erro",
+          "detalhe"
+        ],
+        "title": "Erro"
+      },
+      "PrevisaoDia": {
+        "properties": {
+          "data": {
+            "type": "string",
+            "title": "Data"
+          },
+          "temperatura_min": {
+            "type": "number",
+            "title": "Temperatura Min"
+          },
+          "temperatura_max": {
+            "type": "number",
+            "title": "Temperatura Max"
+          },
+          "chuva_mm": {
+            "type": "number",
+            "title": "Chuva Mm"
+          },
+          "chance_chuva": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Chance Chuva"
+          },
+          "codigo_clima": {
+            "type": "integer",
+            "title": "Codigo Clima"
+          },
+          "descricao": {
+            "type": "string",
+            "title": "Descricao"
+          }
+        },
+        "type": "object",
+        "required": [
+          "data",
+          "temperatura_min",
+          "temperatura_max",
+          "chuva_mm",
+          "chance_chuva",
+          "codigo_clima",
+          "descricao"
+        ],
+        "title": "PrevisaoDia"
+      },
+      "PrevisaoHora": {
+        "properties": {
+          "horario": {
+            "type": "string",
+            "title": "Horario"
+          },
+          "temperatura": {
+            "type": "number",
+            "title": "Temperatura"
+          },
+          "chance_chuva": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Chance Chuva"
+          }
+        },
+        "type": "object",
+        "required": [
+          "horario",
+          "temperatura",
+          "chance_chuva"
+        ],
+        "title": "PrevisaoHora"
+      },
+      "RelatorioClima": {
+        "properties": {
+          "endereco": {
+            "$ref": "#/components/schemas/Endereco"
+          },
+          "coordenadas": {
+            "$ref": "#/components/schemas/Coordenadas"
+          },
+          "atual": {
+            "$ref": "#/components/schemas/ClimaAtual"
+          },
+          "proximas_horas": {
+            "items": {
+              "$ref": "#/components/schemas/PrevisaoHora"
+            },
+            "type": "array",
+            "title": "Proximas Horas"
+          },
+          "proximos_dias": {
+            "items": {
+              "$ref": "#/components/schemas/PrevisaoDia"
+            },
+            "type": "array",
+            "title": "Proximos Dias"
+          },
+          "consultado_em": {
+            "type": "string",
+            "title": "Consultado Em"
+          }
+        },
+        "type": "object",
+        "required": [
+          "endereco",
+          "coordenadas",
+          "atual"
+        ],
+        "title": "RelatorioClima",
+        "description": "Resultado completo de uma consulta: endereço + clima atual + previsões."
+      }
+    }
+  }
+}
