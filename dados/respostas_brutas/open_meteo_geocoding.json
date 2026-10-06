@@ -1,0 +1,58 @@
+{
+  "results": [
+    {
+      "id": 3448439,
+      "name": "São Paulo",
+      "latitude": -23.5475,
+      "longitude": -46.63611,
+      "elevation": 769.0,
+      "feature_code": "PPLA",
+      "country_code": "BR",
+      "admin1_id": 3448433,
+      "timezone": "America/Sao_Paulo",
+      "population": 12400232,
+      "postcodes": [
+        "82010-340",
+        "22640-101"
+      ],
+      "country_id": 3469034,
+      "country": "Brasil",
+      "admin1": "São Paulo"
+    },
+    {
+      "id": 3462944,
+      "name": "Frei Paulo",
+      "latitude": -10.54944,
+      "longitude": -37.53444,
+      "elevation": 276.0,
+      "feature_code": "PPL",
+      "country_code": "BR",
+      "admin1_id": 3447799,
+      "admin2_id": 3462943,
+      "timezone": "America/Maceio",
+      "population": 14530,
+      "country_id": 3469034,
+      "country": "Brasil",
+      "admin1": "Sergipe",
+      "admin2": "Frei Paulo"
+    },
+    {
+      "id": 3401050,
+      "name": "Diamante",
+      "latitude": -7.42778,
+      "longitude": -38.26417,
+      "elevation": 316.0,
+      "feature_code": "PPL",
+      "country_code": "BR",
+      "admin1_id": 3393098,
+      "admin2_id": 6320323,
+      "timezone": "America/Fortaleza",
+      "population": 6299,
+      "country_id": 3469034,
+      "country": "Brasil",
+      "admin1": "Paraíba",
+      "admin2": "Diamante"
+    }
+  ],
+  "generationtime_ms": 0.49090385
+}
