@@ -1,0 +1,1675 @@
+{
+  "consultas": [
+    {
+      "endereco": {
+        "cep": "01310-100",
+        "logradouro": "Avenida Paulista",
+        "bairro": "Bela Vista",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "estado": "São Paulo",
+        "ibge": "3550308"
+      },
+      "coordenadas": {
+        "latitude": -23.5475,
+        "longitude": -46.63611,
+        "fuso_horario": "America/Sao_Paulo"
+      },
+      "atual": {
+        "horario": "2026-10-06T19:15",
+        "temperatura": 19.5,
+        "sensacao_termica": 22.4,
+        "umidade": 98,
+        "vento_kmh": 3.4,
+        "codigo_clima": 51,
+        "descricao": "Garoa leve",
+        "dia": false
+      },
+      "proximas_horas": [
+        {
+          "horario": "2026-10-06T19:00",
+          "temperatura": 19.5,
+          "chance_chuva": 99
+        },
+        {
+          "horario": "2026-10-06T20:00",
+          "temperatura": 19.4,
+          "chance_chuva": 100
+        },
+        {
+          "horario": "2026-10-06T21:00",
+          "temperatura": 18.9,
+          "chance_chuva": 100
+        },
+        {
+          "horario": "2026-10-06T22:00",
+          "temperatura": 18.9,
+          "chance_chuva": 95
+        },
+        {
+          "horario": "2026-10-06T23:00",
+          "temperatura": 18.8,
+          "chance_chuva": 87
+        },
+        {
+          "horario": "2026-10-07T00:00",
+          "temperatura": 18.5,
+          "chance_chuva": 76
+        },
+        {
+          "horario": "2026-10-07T01:00",
+          "temperatura": 18.3,
+          "chance_chuva": 61
+        },
+        {
+          "horario": "2026-10-07T02:00",
+          "temperatura": 18.3,
+          "chance_chuva": 43
+        },
+        {
+          "horario": "2026-10-07T03:00",
+          "temperatura": 18.1,
+          "chance_chuva": 29
+        },
+        {
+          "horario": "2026-10-07T04:00",
+          "temperatura": 17.7,
+          "chance_chuva": 24
+        },
+        {
+          "horario": "2026-10-07T05:00",
+          "temperatura": 17.6,
+          "chance_chuva": 23
+        },
+        {
+          "horario": "2026-10-07T06:00",
+          "temperatura": 17.6,
+          "chance_chuva": 22
+        },
+        {
+          "horario": "2026-10-07T07:00",
+          "temperatura": 18.2,
+          "chance_chuva": 19
+        },
+        {
+          "horario": "2026-10-07T08:00",
+          "temperatura": 19.1,
+          "chance_chuva": 16
+        },
+        {
+          "horario": "2026-10-07T09:00",
+          "temperatura": 21.5,
+          "chance_chuva": 16
+        },
+        {
+          "horario": "2026-10-07T10:00",
+          "temperatura": 23.3,
+          "chance_chuva": 20
+        },
+        {
+          "horario": "2026-10-07T11:00",
+          "temperatura": 24.4,
+          "chance_chuva": 27
+        },
+        {
+          "horario": "2026-10-07T12:00",
+          "temperatura": 25.2,
+          "chance_chuva": 35
+        },
+        {
+          "horario": "2026-10-07T13:00",
+          "temperatura": 26.6,
+          "chance_chuva": 45
+        },
+        {
+          "horario": "2026-10-07T14:00",
+          "temperatura": 25.1,
+          "chance_chuva": 57
+        },
+        {
+          "horario": "2026-10-07T15:00",
+          "temperatura": 23.0,
+          "chance_chuva": 67
+        },
+        {
+          "horario": "2026-10-07T16:00",
+          "temperatura": 22.9,
+          "chance_chuva": 76
+        },
+        {
+          "horario": "2026-10-07T17:00",
+          "temperatura": 21.0,
+          "chance_chuva": 83
+        },
+        {
+          "horario": "2026-10-07T18:00",
+          "temperatura": 19.9,
+          "chance_chuva": 80
+        },
+        {
+          "horario": "2026-10-07T19:00",
+          "temperatura": 19.3,
+          "chance_chuva": 59
+        },
+        {
+          "horario": "2026-10-07T20:00",
+          "temperatura": 19.0,
+          "chance_chuva": 27
+        },
+        {
+          "horario": "2026-10-07T21:00",
+          "temperatura": 18.6,
+          "chance_chuva": 4
+        },
+        {
+          "horario": "2026-10-07T22:00",
+          "temperatura": 18.1,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T23:00",
+          "temperatura": 17.9,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T00:00",
+          "temperatura": 17.5,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T01:00",
+          "temperatura": 17.4,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T02:00",
+          "temperatura": 17.4,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T03:00",
+          "temperatura": 17.4,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T04:00",
+          "temperatura": 17.7,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T05:00",
+          "temperatura": 17.8,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T06:00",
+          "temperatura": 18.1,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T07:00",
+          "temperatura": 18.6,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T08:00",
+          "temperatura": 19.9,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T09:00",
+          "temperatura": 22.4,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T10:00",
+          "temperatura": 24.6,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T11:00",
+          "temperatura": 26.2,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T12:00",
+          "temperatura": 27.2,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T13:00",
+          "temperatura": 27.8,
+          "chance_chuva": 6
+        },
+        {
+          "horario": "2026-10-08T14:00",
+          "temperatura": 28.9,
+          "chance_chuva": 14
+        },
+        {
+          "horario": "2026-10-08T15:00",
+          "temperatura": 29.3,
+          "chance_chuva": 20
+        },
+        {
+          "horario": "2026-10-08T16:00",
+          "temperatura": 29.2,
+          "chance_chuva": 21
+        },
+        {
+          "horario": "2026-10-08T17:00",
+          "temperatura": 28.2,
+          "chance_chuva": 21
+        },
+        {
+          "horario": "2026-10-08T18:00",
+          "temperatura": 25.1,
+          "chance_chuva": 18
+        }
+      ],
+      "proximos_dias": [
+        {
+          "data": "2026-10-06",
+          "temperatura_min": 16.2,
+          "temperatura_max": 23.6,
+          "chuva_mm": 22.9,
+          "chance_chuva": 100,
+          "codigo_clima": 95,
+          "descricao": "Trovoada"
+        },
+        {
+          "data": "2026-10-07",
+          "temperatura_min": 17.6,
+          "temperatura_max": 26.6,
+          "chuva_mm": 4.0,
+          "chance_chuva": 83,
+          "codigo_clima": 55,
+          "descricao": "Garoa intensa"
+        },
+        {
+          "data": "2026-10-08",
+          "temperatura_min": 17.4,
+          "temperatura_max": 29.3,
+          "chuva_mm": 0.3,
+          "chance_chuva": 21,
+          "codigo_clima": 51,
+          "descricao": "Garoa leve"
+        },
+        {
+          "data": "2026-10-09",
+          "temperatura_min": 19.0,
+          "temperatura_max": 30.1,
+          "chuva_mm": 0.9,
+          "chance_chuva": 58,
+          "codigo_clima": 53,
+          "descricao": "Garoa moderada"
+        },
+        {
+          "data": "2026-10-10",
+          "temperatura_min": 18.5,
+          "temperatura_max": 32.1,
+          "chuva_mm": 8.1,
+          "chance_chuva": 69,
+          "codigo_clima": 95,
+          "descricao": "Trovoada"
+        },
+        {
+          "data": "2026-10-11",
+          "temperatura_min": 18.0,
+          "temperatura_max": 27.0,
+          "chuva_mm": 15.3,
+          "chance_chuva": 89,
+          "codigo_clima": 96,
+          "descricao": "Trovoada com granizo leve"
+        },
+        {
+          "data": "2026-10-12",
+          "temperatura_min": 19.2,
+          "temperatura_max": 26.6,
+          "chuva_mm": 7.1,
+          "chance_chuva": 80,
+          "codigo_clima": 95,
+          "descricao": "Trovoada"
+        }
+      ],
+      "consultado_em": "2026-10-06T19:18:43"
+    },
+    {
+      "endereco": {
+        "cep": "20040-020",
+        "logradouro": "Praça Pio X",
+        "bairro": "Centro",
+        "cidade": "Rio de Janeiro",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "ibge": "3304557"
+      },
+      "coordenadas": {
+        "latitude": -22.90642,
+        "longitude": -43.18223,
+        "fuso_horario": "America/Sao_Paulo"
+      },
+      "atual": {
+        "horario": "2026-10-06T19:15",
+        "temperatura": 22.3,
+        "sensacao_termica": 25.6,
+        "umidade": 95,
+        "vento_kmh": 8.8,
+        "codigo_clima": 3,
+        "descricao": "Nublado",
+        "dia": false
+      },
+      "proximas_horas": [
+        {
+          "horario": "2026-10-06T19:00",
+          "temperatura": 22.3,
+          "chance_chuva": 55
+        },
+        {
+          "horario": "2026-10-06T20:00",
+          "temperatura": 22.5,
+          "chance_chuva": 57
+        },
+        {
+          "horario": "2026-10-06T21:00",
+          "temperatura": 22.6,
+          "chance_chuva": 57
+        },
+        {
+          "horario": "2026-10-06T22:00",
+          "temperatura": 22.7,
+          "chance_chuva": 53
+        },
+        {
+          "horario": "2026-10-06T23:00",
+          "temperatura": 22.5,
+          "chance_chuva": 45
+        },
+        {
+          "horario": "2026-10-07T00:00",
+          "temperatura": 22.4,
+          "chance_chuva": 37
+        },
+        {
+          "horario": "2026-10-07T01:00",
+          "temperatura": 22.3,
+          "chance_chuva": 28
+        },
+        {
+          "horario": "2026-10-07T02:00",
+          "temperatura": 22.1,
+          "chance_chuva": 19
+        },
+        {
+          "horario": "2026-10-07T03:00",
+          "temperatura": 22.1,
+          "chance_chuva": 12
+        },
+        {
+          "horario": "2026-10-07T04:00",
+          "temperatura": 21.9,
+          "chance_chuva": 8
+        },
+        {
+          "horario": "2026-10-07T05:00",
+          "temperatura": 21.7,
+          "chance_chuva": 7
+        },
+        {
+          "horario": "2026-10-07T06:00",
+          "temperatura": 22.0,
+          "chance_chuva": 6
+        },
+        {
+          "horario": "2026-10-07T07:00",
+          "temperatura": 22.6,
+          "chance_chuva": 4
+        },
+        {
+          "horario": "2026-10-07T08:00",
+          "temperatura": 24.1,
+          "chance_chuva": 3
+        },
+        {
+          "horario": "2026-10-07T09:00",
+          "temperatura": 25.4,
+          "chance_chuva": 4
+        },
+        {
+          "horario": "2026-10-07T10:00",
+          "temperatura": 26.3,
+          "chance_chuva": 7
+        },
+        {
+          "horario": "2026-10-07T11:00",
+          "temperatura": 27.4,
+          "chance_chuva": 12
+        },
+        {
+          "horario": "2026-10-07T12:00",
+          "temperatura": 26.1,
+          "chance_chuva": 18
+        },
+        {
+          "horario": "2026-10-07T13:00",
+          "temperatura": 25.2,
+          "chance_chuva": 24
+        },
+        {
+          "horario": "2026-10-07T14:00",
+          "temperatura": 24.1,
+          "chance_chuva": 32
+        },
+        {
+          "horario": "2026-10-07T15:00",
+          "temperatura": 23.9,
+          "chance_chuva": 39
+        },
+        {
+          "horario": "2026-10-07T16:00",
+          "temperatura": 23.9,
+          "chance_chuva": 48
+        },
+        {
+          "horario": "2026-10-07T17:00",
+          "temperatura": 23.4,
+          "chance_chuva": 57
+        },
+        {
+          "horario": "2026-10-07T18:00",
+          "temperatura": 22.9,
+          "chance_chuva": 61
+        },
+        {
+          "horario": "2026-10-07T19:00",
+          "temperatura": 22.4,
+          "chance_chuva": 57
+        },
+        {
+          "horario": "2026-10-07T20:00",
+          "temperatura": 22.5,
+          "chance_chuva": 49
+        },
+        {
+          "horario": "2026-10-07T21:00",
+          "temperatura": 22.6,
+          "chance_chuva": 39
+        },
+        {
+          "horario": "2026-10-07T22:00",
+          "temperatura": 22.6,
+          "chance_chuva": 26
+        },
+        {
+          "horario": "2026-10-07T23:00",
+          "temperatura": 22.4,
+          "chance_chuva": 12
+        },
+        {
+          "horario": "2026-10-08T00:00",
+          "temperatura": 22.2,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-08T01:00",
+          "temperatura": 22.2,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T02:00",
+          "temperatura": 22.2,
+          "chance_chuva": 1
+        },
+        {
+          "horario": "2026-10-08T03:00",
+          "temperatura": 22.2,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-08T04:00",
+          "temperatura": 22.2,
+          "chance_chuva": 1
+        },
+        {
+          "horario": "2026-10-08T05:00",
+          "temperatura": 22.2,
+          "chance_chuva": 1
+        },
+        {
+          "horario": "2026-10-08T06:00",
+          "temperatura": 22.4,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T07:00",
+          "temperatura": 23.0,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T08:00",
+          "temperatura": 23.9,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T09:00",
+          "temperatura": 24.9,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T10:00",
+          "temperatura": 25.6,
+          "chance_chuva": 1
+        },
+        {
+          "horario": "2026-10-08T11:00",
+          "temperatura": 25.0,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-08T12:00",
+          "temperatura": 25.0,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-08T13:00",
+          "temperatura": 24.7,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-08T14:00",
+          "temperatura": 24.9,
+          "chance_chuva": 1
+        },
+        {
+          "horario": "2026-10-08T15:00",
+          "temperatura": 24.6,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T16:00",
+          "temperatura": 24.1,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T17:00",
+          "temperatura": 23.7,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T18:00",
+          "temperatura": 23.2,
+          "chance_chuva": 0
+        }
+      ],
+      "proximos_dias": [
+        {
+          "data": "2026-10-06",
+          "temperatura_min": 21.0,
+          "temperatura_max": 25.5,
+          "chuva_mm": 2.8,
+          "chance_chuva": 96,
+          "codigo_clima": 55,
+          "descricao": "Garoa intensa"
+        },
+        {
+          "data": "2026-10-07",
+          "temperatura_min": 21.7,
+          "temperatura_max": 27.4,
+          "chuva_mm": 2.5,
+          "chance_chuva": 61,
+          "codigo_clima": 53,
+          "descricao": "Garoa moderada"
+        },
+        {
+          "data": "2026-10-08",
+          "temperatura_min": 22.2,
+          "temperatura_max": 25.6,
+          "chuva_mm": 0.5,
+          "chance_chuva": 2,
+          "codigo_clima": 51,
+          "descricao": "Garoa leve"
+        },
+        {
+          "data": "2026-10-09",
+          "temperatura_min": 22.4,
+          "temperatura_max": 28.4,
+          "chuva_mm": 0.0,
+          "chance_chuva": 1,
+          "codigo_clima": 3,
+          "descricao": "Nublado"
+        },
+        {
+          "data": "2026-10-10",
+          "temperatura_min": 23.0,
+          "temperatura_max": 29.6,
+          "chuva_mm": 0.4,
+          "chance_chuva": 12,
+          "codigo_clima": 51,
+          "descricao": "Garoa leve"
+        },
+        {
+          "data": "2026-10-11",
+          "temperatura_min": 23.3,
+          "temperatura_max": 28.9,
+          "chuva_mm": 0.5,
+          "chance_chuva": 26,
+          "codigo_clima": 51,
+          "descricao": "Garoa leve"
+        },
+        {
+          "data": "2026-10-12",
+          "temperatura_min": 23.1,
+          "temperatura_max": 28.4,
+          "chuva_mm": 3.0,
+          "chance_chuva": 22,
+          "codigo_clima": 53,
+          "descricao": "Garoa moderada"
+        }
+      ],
+      "consultado_em": "2026-10-06T19:18:44"
+    },
+    {
+      "endereco": {
+        "cep": "70040-010",
+        "logradouro": "Quadra SBN Quadra 1",
+        "bairro": "Asa Norte",
+        "cidade": "Brasília",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "ibge": "5300108"
+      },
+      "coordenadas": {
+        "latitude": -15.77972,
+        "longitude": -47.92972,
+        "fuso_horario": "America/Sao_Paulo"
+      },
+      "atual": {
+        "horario": "2026-10-06T19:15",
+        "temperatura": 18.6,
+        "sensacao_termica": 20.1,
+        "umidade": 92,
+        "vento_kmh": 7.0,
+        "codigo_clima": 3,
+        "descricao": "Nublado",
+        "dia": false
+      },
+      "proximas_horas": [
+        {
+          "horario": "2026-10-06T19:00",
+          "temperatura": 18.6,
+          "chance_chuva": 34
+        },
+        {
+          "horario": "2026-10-06T20:00",
+          "temperatura": 19.4,
+          "chance_chuva": 16
+        },
+        {
+          "horario": "2026-10-06T21:00",
+          "temperatura": 19.3,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-06T22:00",
+          "temperatura": 19.2,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-06T23:00",
+          "temperatura": 18.7,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T00:00",
+          "temperatura": 18.3,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T01:00",
+          "temperatura": 18.3,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T02:00",
+          "temperatura": 18.4,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T03:00",
+          "temperatura": 17.6,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T04:00",
+          "temperatura": 17.3,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T05:00",
+          "temperatura": 17.4,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T06:00",
+          "temperatura": 17.4,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T07:00",
+          "temperatura": 19.3,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T08:00",
+          "temperatura": 21.7,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T09:00",
+          "temperatura": 23.8,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T10:00",
+          "temperatura": 25.6,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T11:00",
+          "temperatura": 27.3,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T12:00",
+          "temperatura": 28.6,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T13:00",
+          "temperatura": 29.4,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T14:00",
+          "temperatura": 29.7,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T15:00",
+          "temperatura": 29.7,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T16:00",
+          "temperatura": 29.2,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T17:00",
+          "temperatura": 28.6,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T18:00",
+          "temperatura": 26.3,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T19:00",
+          "temperatura": 24.0,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T20:00",
+          "temperatura": 22.9,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T21:00",
+          "temperatura": 22.2,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T22:00",
+          "temperatura": 22.0,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T23:00",
+          "temperatura": 21.4,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T00:00",
+          "temperatura": 21.1,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T01:00",
+          "temperatura": 20.2,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T02:00",
+          "temperatura": 20.0,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T03:00",
+          "temperatura": 19.6,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T04:00",
+          "temperatura": 19.1,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T05:00",
+          "temperatura": 18.8,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T06:00",
+          "temperatura": 18.7,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T07:00",
+          "temperatura": 20.4,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T08:00",
+          "temperatura": 22.6,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T09:00",
+          "temperatura": 24.8,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T10:00",
+          "temperatura": 26.7,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T11:00",
+          "temperatura": 28.4,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T12:00",
+          "temperatura": 29.6,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T13:00",
+          "temperatura": 30.3,
+          "chance_chuva": 1
+        },
+        {
+          "horario": "2026-10-08T14:00",
+          "temperatura": 30.5,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-08T15:00",
+          "temperatura": 30.2,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-08T16:00",
+          "temperatura": 29.6,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-08T17:00",
+          "temperatura": 28.7,
+          "chance_chuva": 1
+        },
+        {
+          "horario": "2026-10-08T18:00",
+          "temperatura": 26.3,
+          "chance_chuva": 0
+        }
+      ],
+      "proximos_dias": [
+        {
+          "data": "2026-10-06",
+          "temperatura_min": 17.8,
+          "temperatura_max": 27.4,
+          "chuva_mm": 1.4,
+          "chance_chuva": 75,
+          "codigo_clima": 51,
+          "descricao": "Garoa leve"
+        },
+        {
+          "data": "2026-10-07",
+          "temperatura_min": 17.3,
+          "temperatura_max": 29.7,
+          "chuva_mm": 0.0,
+          "chance_chuva": 0,
+          "codigo_clima": 3,
+          "descricao": "Nublado"
+        },
+        {
+          "data": "2026-10-08",
+          "temperatura_min": 18.7,
+          "temperatura_max": 30.5,
+          "chuva_mm": 0.0,
+          "chance_chuva": 2,
+          "codigo_clima": 1,
+          "descricao": "Predominantemente limpo"
+        },
+        {
+          "data": "2026-10-09",
+          "temperatura_min": 19.5,
+          "temperatura_max": 32.1,
+          "chuva_mm": 0.0,
+          "chance_chuva": 0,
+          "codigo_clima": 3,
+          "descricao": "Nublado"
+        },
+        {
+          "data": "2026-10-10",
+          "temperatura_min": 20.1,
+          "temperatura_max": 34.4,
+          "chuva_mm": 0.0,
+          "chance_chuva": 0,
+          "codigo_clima": 3,
+          "descricao": "Nublado"
+        },
+        {
+          "data": "2026-10-11",
+          "temperatura_min": 21.7,
+          "temperatura_max": 34.5,
+          "chuva_mm": 0.0,
+          "chance_chuva": 0,
+          "codigo_clima": 3,
+          "descricao": "Nublado"
+        },
+        {
+          "data": "2026-10-12",
+          "temperatura_min": 20.3,
+          "temperatura_max": 33.5,
+          "chuva_mm": 0.0,
+          "chance_chuva": 12,
+          "codigo_clima": 2,
+          "descricao": "Parcialmente nublado"
+        }
+      ],
+      "consultado_em": "2026-10-06T19:18:45"
+    },
+    {
+      "endereco": {
+        "cep": "40015-970",
+        "logradouro": "Praça da Inglaterra",
+        "bairro": "Comércio",
+        "cidade": "Salvador",
+        "uf": "BA",
+        "estado": "Bahia",
+        "ibge": "2927408"
+      },
+      "coordenadas": {
+        "latitude": -12.97563,
+        "longitude": -38.49096,
+        "fuso_horario": "America/Bahia"
+      },
+      "atual": {
+        "horario": "2026-10-06T19:15",
+        "temperatura": 26.6,
+        "sensacao_termica": 28.3,
+        "umidade": 69,
+        "vento_kmh": 15.9,
+        "codigo_clima": 1,
+        "descricao": "Predominantemente limpo",
+        "dia": false
+      },
+      "proximas_horas": [
+        {
+          "horario": "2026-10-06T19:00",
+          "temperatura": 26.6,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-06T20:00",
+          "temperatura": 26.5,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-06T21:00",
+          "temperatura": 26.2,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-06T22:00",
+          "temperatura": 25.9,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-06T23:00",
+          "temperatura": 26.0,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T00:00",
+          "temperatura": 25.6,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T01:00",
+          "temperatura": 25.4,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T02:00",
+          "temperatura": 25.3,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T03:00",
+          "temperatura": 25.2,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T04:00",
+          "temperatura": 25.1,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T05:00",
+          "temperatura": 25.2,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T06:00",
+          "temperatura": 25.6,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T07:00",
+          "temperatura": 26.5,
+          "chance_chuva": 3
+        },
+        {
+          "horario": "2026-10-07T08:00",
+          "temperatura": 27.4,
+          "chance_chuva": 6
+        },
+        {
+          "horario": "2026-10-07T09:00",
+          "temperatura": 28.0,
+          "chance_chuva": 8
+        },
+        {
+          "horario": "2026-10-07T10:00",
+          "temperatura": 28.5,
+          "chance_chuva": 8
+        },
+        {
+          "horario": "2026-10-07T11:00",
+          "temperatura": 28.8,
+          "chance_chuva": 6
+        },
+        {
+          "horario": "2026-10-07T12:00",
+          "temperatura": 28.7,
+          "chance_chuva": 4
+        },
+        {
+          "horario": "2026-10-07T13:00",
+          "temperatura": 28.6,
+          "chance_chuva": 3
+        },
+        {
+          "horario": "2026-10-07T14:00",
+          "temperatura": 28.2,
+          "chance_chuva": 1
+        },
+        {
+          "horario": "2026-10-07T15:00",
+          "temperatura": 27.9,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T16:00",
+          "temperatura": 27.3,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T17:00",
+          "temperatura": 26.6,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T18:00",
+          "temperatura": 26.2,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T19:00",
+          "temperatura": 26.0,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T20:00",
+          "temperatura": 25.7,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T21:00",
+          "temperatura": 25.5,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T22:00",
+          "temperatura": 25.4,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T23:00",
+          "temperatura": 25.4,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T00:00",
+          "temperatura": 25.1,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T01:00",
+          "temperatura": 24.4,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-08T02:00",
+          "temperatura": 24.0,
+          "chance_chuva": 4
+        },
+        {
+          "horario": "2026-10-08T03:00",
+          "temperatura": 23.8,
+          "chance_chuva": 6
+        },
+        {
+          "horario": "2026-10-08T04:00",
+          "temperatura": 23.5,
+          "chance_chuva": 5
+        },
+        {
+          "horario": "2026-10-08T05:00",
+          "temperatura": 23.3,
+          "chance_chuva": 3
+        },
+        {
+          "horario": "2026-10-08T06:00",
+          "temperatura": 23.8,
+          "chance_chuva": 4
+        },
+        {
+          "horario": "2026-10-08T07:00",
+          "temperatura": 24.8,
+          "chance_chuva": 11
+        },
+        {
+          "horario": "2026-10-08T08:00",
+          "temperatura": 26.4,
+          "chance_chuva": 20
+        },
+        {
+          "horario": "2026-10-08T09:00",
+          "temperatura": 27.8,
+          "chance_chuva": 27
+        },
+        {
+          "horario": "2026-10-08T10:00",
+          "temperatura": 28.5,
+          "chance_chuva": 30
+        },
+        {
+          "horario": "2026-10-08T11:00",
+          "temperatura": 28.4,
+          "chance_chuva": 31
+        },
+        {
+          "horario": "2026-10-08T12:00",
+          "temperatura": 28.3,
+          "chance_chuva": 29
+        },
+        {
+          "horario": "2026-10-08T13:00",
+          "temperatura": 28.1,
+          "chance_chuva": 25
+        },
+        {
+          "horario": "2026-10-08T14:00",
+          "temperatura": 28.0,
+          "chance_chuva": 18
+        },
+        {
+          "horario": "2026-10-08T15:00",
+          "temperatura": 27.6,
+          "chance_chuva": 12
+        },
+        {
+          "horario": "2026-10-08T16:00",
+          "temperatura": 27.1,
+          "chance_chuva": 7
+        },
+        {
+          "horario": "2026-10-08T17:00",
+          "temperatura": 26.4,
+          "chance_chuva": 3
+        },
+        {
+          "horario": "2026-10-08T18:00",
+          "temperatura": 26.1,
+          "chance_chuva": 0
+        }
+      ],
+      "proximos_dias": [
+        {
+          "data": "2026-10-06",
+          "temperatura_min": 24.7,
+          "temperatura_max": 29.1,
+          "chuva_mm": 1.2,
+          "chance_chuva": 51,
+          "codigo_clima": 51,
+          "descricao": "Garoa leve"
+        },
+        {
+          "data": "2026-10-07",
+          "temperatura_min": 25.1,
+          "temperatura_max": 28.8,
+          "chuva_mm": 0.0,
+          "chance_chuva": 8,
+          "codigo_clima": 3,
+          "descricao": "Nublado"
+        },
+        {
+          "data": "2026-10-08",
+          "temperatura_min": 23.3,
+          "temperatura_max": 28.5,
+          "chuva_mm": 0.5,
+          "chance_chuva": 31,
+          "codigo_clima": 51,
+          "descricao": "Garoa leve"
+        },
+        {
+          "data": "2026-10-09",
+          "temperatura_min": 24.6,
+          "temperatura_max": 28.7,
+          "chuva_mm": 0.0,
+          "chance_chuva": 47,
+          "codigo_clima": 1,
+          "descricao": "Predominantemente limpo"
+        },
+        {
+          "data": "2026-10-10",
+          "temperatura_min": 24.7,
+          "temperatura_max": 28.9,
+          "chuva_mm": 0.0,
+          "chance_chuva": 25,
+          "codigo_clima": 3,
+          "descricao": "Nublado"
+        },
+        {
+          "data": "2026-10-11",
+          "temperatura_min": 24.1,
+          "temperatura_max": 28.9,
+          "chuva_mm": 1.2,
+          "chance_chuva": 53,
+          "codigo_clima": 51,
+          "descricao": "Garoa leve"
+        },
+        {
+          "data": "2026-10-12",
+          "temperatura_min": 23.8,
+          "temperatura_max": 28.3,
+          "chuva_mm": 1.2,
+          "chance_chuva": 24,
+          "codigo_clima": 51,
+          "descricao": "Garoa leve"
+        }
+      ],
+      "consultado_em": "2026-10-06T19:18:45"
+    },
+    {
+      "endereco": {
+        "cep": "90010-150",
+        "logradouro": "Praça da Alfândega",
+        "bairro": "Centro Histórico",
+        "cidade": "Porto Alegre",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "ibge": "4314902"
+      },
+      "coordenadas": {
+        "latitude": -30.03283,
+        "longitude": -51.23019,
+        "fuso_horario": "America/Sao_Paulo"
+      },
+      "atual": {
+        "horario": "2026-10-06T19:15",
+        "temperatura": 17.1,
+        "sensacao_termica": 17.1,
+        "umidade": 87,
+        "vento_kmh": 11.0,
+        "codigo_clima": 3,
+        "descricao": "Nublado",
+        "dia": false
+      },
+      "proximas_horas": [
+        {
+          "horario": "2026-10-06T19:00",
+          "temperatura": 17.3,
+          "chance_chuva": 1
+        },
+        {
+          "horario": "2026-10-06T20:00",
+          "temperatura": 16.7,
+          "chance_chuva": 1
+        },
+        {
+          "horario": "2026-10-06T21:00",
+          "temperatura": 16.3,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-06T22:00",
+          "temperatura": 16.0,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-06T23:00",
+          "temperatura": 15.8,
+          "chance_chuva": 1
+        },
+        {
+          "horario": "2026-10-07T00:00",
+          "temperatura": 15.6,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-07T01:00",
+          "temperatura": 15.5,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-07T02:00",
+          "temperatura": 15.3,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-07T03:00",
+          "temperatura": 15.1,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-07T04:00",
+          "temperatura": 15.0,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-07T05:00",
+          "temperatura": 14.8,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-07T06:00",
+          "temperatura": 14.7,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-07T07:00",
+          "temperatura": 15.7,
+          "chance_chuva": 1
+        },
+        {
+          "horario": "2026-10-07T08:00",
+          "temperatura": 18.0,
+          "chance_chuva": 1
+        },
+        {
+          "horario": "2026-10-07T09:00",
+          "temperatura": 20.7,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T10:00",
+          "temperatura": 23.0,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T11:00",
+          "temperatura": 24.7,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T12:00",
+          "temperatura": 25.8,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T13:00",
+          "temperatura": 26.7,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T14:00",
+          "temperatura": 27.3,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T15:00",
+          "temperatura": 27.5,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-07T16:00",
+          "temperatura": 26.4,
+          "chance_chuva": 1
+        },
+        {
+          "horario": "2026-10-07T17:00",
+          "temperatura": 24.5,
+          "chance_chuva": 1
+        },
+        {
+          "horario": "2026-10-07T18:00",
+          "temperatura": 22.5,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-07T19:00",
+          "temperatura": 20.7,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-07T20:00",
+          "temperatura": 19.6,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-07T21:00",
+          "temperatura": 19.4,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-07T22:00",
+          "temperatura": 19.6,
+          "chance_chuva": 1
+        },
+        {
+          "horario": "2026-10-07T23:00",
+          "temperatura": 19.4,
+          "chance_chuva": 0
+        },
+        {
+          "horario": "2026-10-08T00:00",
+          "temperatura": 19.0,
+          "chance_chuva": 2
+        },
+        {
+          "horario": "2026-10-08T01:00",
+          "temperatura": 18.7,
+          "chance_chuva": 9
+        },
+        {
+          "horario": "2026-10-08T02:00",
+          "temperatura": 18.5,
+          "chance_chuva": 18
+        },
+        {
+          "horario": "2026-10-08T03:00",
+          "temperatura": 18.3,
+          "chance_chuva": 31
+        },
+        {
+          "horario": "2026-10-08T04:00",
+          "temperatura": 18.1,
+          "chance_chuva": 49
+        },
+        {
+          "horario": "2026-10-08T05:00",
+          "temperatura": 18.2,
+          "chance_chuva": 69
+        },
+        {
+          "horario": "2026-10-08T06:00",
+          "temperatura": 18.2,
+          "chance_chuva": 84
+        },
+        {
+          "horario": "2026-10-08T07:00",
+          "temperatura": 18.6,
+          "chance_chuva": 91
+        },
+        {
+          "horario": "2026-10-08T08:00",
+          "temperatura": 19.7,
+          "chance_chuva": 93
+        },
+        {
+          "horario": "2026-10-08T09:00",
+          "temperatura": 21.1,
+          "chance_chuva": 92
+        },
+        {
+          "horario": "2026-10-08T10:00",
+          "temperatura": 21.9,
+          "chance_chuva": 89
+        },
+        {
+          "horario": "2026-10-08T11:00",
+          "temperatura": 21.8,
+          "chance_chuva": 84
+        },
+        {
+          "horario": "2026-10-08T12:00",
+          "temperatura": 23.3,
+          "chance_chuva": 78
+        },
+        {
+          "horario": "2026-10-08T13:00",
+          "temperatura": 25.2,
+          "chance_chuva": 72
+        },
+        {
+          "horario": "2026-10-08T14:00",
+          "temperatura": 26.0,
+          "chance_chuva": 66
+        },
+        {
+          "horario": "2026-10-08T15:00",
+          "temperatura": 26.2,
+          "chance_chuva": 61
+        },
+        {
+          "horario": "2026-10-08T16:00",
+          "temperatura": 25.8,
+          "chance_chuva": 59
+        },
+        {
+          "horario": "2026-10-08T17:00",
+          "temperatura": 26.0,
+          "chance_chuva": 59
+        },
+        {
+          "horario": "2026-10-08T18:00",
+          "temperatura": 21.7,
+          "chance_chuva": 57
+        }
+      ],
+      "proximos_dias": [
+        {
+          "data": "2026-10-06",
+          "temperatura_min": 14.4,
+          "temperatura_max": 20.1,
+          "chuva_mm": 2.2,
+          "chance_chuva": 82,
+          "codigo_clima": 55,
+          "descricao": "Garoa intensa"
+        },
+        {
+          "data": "2026-10-07",
+          "temperatura_min": 14.7,
+          "temperatura_max": 27.5,
+          "chuva_mm": 0.0,
+          "chance_chuva": 2,
+          "codigo_clima": 3,
+          "descricao": "Nublado"
+        },
+        {
+          "data": "2026-10-08",
+          "temperatura_min": 18.1,
+          "temperatura_max": 26.2,
+          "chuva_mm": 13.7,
+          "chance_chuva": 93,
+          "codigo_clima": 95,
+          "descricao": "Trovoada"
+        },
+        {
+          "data": "2026-10-09",
+          "temperatura_min": 19.3,
+          "temperatura_max": 24.7,
+          "chuva_mm": 30.0,
+          "chance_chuva": 78,
+          "codigo_clima": 95,
+          "descricao": "Trovoada"
+        },
+        {
+          "data": "2026-10-10",
+          "temperatura_min": 19.7,
+          "temperatura_max": 23.7,
+          "chuva_mm": 17.9,
+          "chance_chuva": 88,
+          "codigo_clima": 95,
+          "descricao": "Trovoada"
+        },
+        {
+          "data": "2026-10-11",
+          "temperatura_min": 16.9,
+          "temperatura_max": 23.8,
+          "chuva_mm": 0.0,
+          "chance_chuva": 12,
+          "codigo_clima": 3,
+          "descricao": "Nublado"
+        },
+        {
+          "data": "2026-10-12",
+          "temperatura_min": 15.6,
+          "temperatura_max": 19.7,
+          "chuva_mm": 0.6,
+          "chance_chuva": 72,
+          "codigo_clima": 51,
+          "descricao": "Garoa leve"
+        }
+      ],
+      "consultado_em": "2026-10-06T19:18:46"
+    }
+  ],
+  "falhas": []
+}
